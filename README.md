@@ -1,24 +1,18 @@
-Artplant NoiseIDE ([http://artplant.no](http://artplant.no), [https://github.com/artplant](https://github.com/artplant))
-========
-IDE for Erlang written from scratch using wxPython.
+# NoiseIDE
+NoiseIDE is an IDE for Erlang written in Python.
 
-In Artplant we are using Erlang on server and Unity\C# on client. All work is done on windows, servers hosted on linux.
+## Windows MSI Installer
+Latest installer for Windows can be downloaded from [dropbox folder](https://www.dropbox.com/s/u1esqq4h68qufcz/NoiseIDE.msi) or from [latest](https://github.com/IDNoise/NoiseIDE/releases/latest) github release (don't update it as often as dropbox)
 
-Most of the features we use are already in place, project is not in active development. From time to time i add something new.
-Codebase requires a lot of refactorings i can't find time to do. I think it requires total rewrite :)
-
-##Windows MSI Installer
-Latest windows installer you can download from my [dropbox folder](https://www.dropbox.com/s/u1esqq4h68qufcz/NoiseIDE.msi) or from [latest](https://github.com/IDNoise/NoiseIDE/releases/latest) github release (don't update it as often as dropbox)
-
-##Linux\MacOs
+## Linux / MacOs
 Never tried to run it on these platforms. Required calls to pywin32api are placed in special platform blocks. 
 Everyone interested in running it on these platforms are welcome.
 
 ## Tutorials
 Simple tutorials for first setup, basic project and common controls elements are in [wiki](https://github.com/IDNoise/NoiseIDE/wiki).
 
-##Features
-* Single app\multiple app erlang projects
+## Features
+* Single app / multiple app erlang projects
 
   * Single app. 1 erlang application. Project folder contains default src\include\ebin folders. 
   * Multiple app. Can contain 2 separate forlders: apps and deps.
@@ -123,18 +117,15 @@ Simple tutorials for first setup, basic project and common controls elements are
 
 * Last project list on start
 
-* Dunno, may be forgot something :D
-
-## Used libs\apps
+## Dependencies
 * Python 2.7
 * wxPython 2.9.5
 * PyYaml-3.*
 * PyWin32-217
 * cx_Freeze-4.3 for building exe\msi
 
-###Licence
-Artplant Noise IDE is licensed under GPL-2
+## License
+Noise IDE is licensed under GPL-2.
 
-## About
-Developed as hobby project in free time to learn Python and get proper IDE for daily use.
-You can contact me by mail (in profile) or by skype: *idnoise* 
+## Credits
+This project is a continuation of the original [NoiseIDE](https://github.com/IDNoise/NoiseIDE) by [Yaroslav Nikityshev](https://github.com/IDNoise).
